@@ -42,3 +42,11 @@ else{
 for(let i=0;i<=10;i++ ){
     console.log(i);
 }
+
+
+let password = 'EDTeam';
+let pass;
+do{
+    pass = prompt('Ingree la contraseña');
+}
+while(pass !== password)
